@@ -42,7 +42,7 @@ class ImageMain(tk.Tk):
 
         self.show_frame(ScrambleMenu)
         
-    # methods
+    # methods 
     def update(self):
         self.image_in = self.img_loader.image
         for key in self.frames:
